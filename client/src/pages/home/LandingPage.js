@@ -5,7 +5,7 @@ function LandingPage() {
     return (
         <div>
             <div className="landingPage">
-                <h1>Welcome to the Garden Project</h1><br />
+                <h1>Welcome to Project Garden</h1><br />
             </div>
             <div className="landing-info">
                 <p>
