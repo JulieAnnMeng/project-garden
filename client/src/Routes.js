@@ -3,6 +3,7 @@ import React from 'react';
 import LandingPage from './pages/home/LandingPage';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
+import Auth from './api_config/Auth';
 
 function Routes() {
     return (
