@@ -4,7 +4,8 @@ import {logIn} from '../api_config/Auth';
 function Login() {
 
     const blankFormData = {username: "", password: ""}
-    const [formData, setFormData] = useState(blankFormData);    
+    const [formData, setFormData] = useState(blankFormData);  
+    const [user, setUser] = useState(null)  
 
     function handleChange(e){
         setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -13,9 +14,10 @@ function Login() {
     function handleSubmit(e) {
         e.preventDefault();
         console.log(formData);
-        logIn(formData);
+        logIn(formData, setUser);
         setFormData(blankFormData);
     }
+
 
     return (
         <div>
