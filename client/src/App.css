@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Piedra&family=Rubik+Beastly&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
 
 .App {
   text-align: center;
@@ -17,34 +17,34 @@
 	width: 100%;
 	min-height: 120px;
 	display: flex;
-	border-bottom: 2px solid #8C3503;
+	border-bottom: 2px solid #01075a;
 	justify-content: space-between;
 	align-items: center;
-	background-color: #1BDDF2;
+	background-color: #abe9f098;
 	letter-spacing: 1px;
 }
 
 .nav-title {
 	margin-left: 5%;
 	font-size: 74px;
-  color: #F2B807;
-  font-family: 'Rubik Beastly', cursive;
-  text-decoration: none;
-  text-shadow: -3px 1px 0 #8C3503,
+	color: #3e7425;
+  	font-family: 'Fleur De Leah', cursive;
+  	text-decoration: none;
+  /* text-shadow: -3px 1px 0 #8C3503,
 				  1px 1px 0 #8C3503,
-				 /* 1px -1px 0 #8C3503; */
-				-3px -1px 0 #8C3503;
+				 /* 1px -1px 0 #8C3503;
+				-3px -1px 0 #8C3503; */
 }
 
 .nav-title:hover {
-  cursor: pointer;
-	color: #888C11;
+  	cursor: pointer;
+	color: #1b4200d0;
 }
 
 .navbar-links {
-  margin-right: 5%;
-  font-family: 'Piedra', cursive;
-  font-size: 32px;
+  	margin-right: 5%;
+  	font-family: 'Fleur De Leah', cursive;
+  	font-size: 42px;
 }
 
 
@@ -56,10 +56,20 @@
 .nav-link {
 	width: 120px;
 	text-decoration: none;
-	color: #888C11;
+	color: #3e7425;
 }
 
 .nav-link:hover {
 	cursor: pointer;
-	color: #F2B807;
+	color: #1b4200d0;
+}
+
+h1 {
+	font-size: 36px;
+  	font-family: 'Fleur De Leah', cursive;
+	color: #1b4200d0;
+}
+
+span {
+	font-size: 48px;
 }
